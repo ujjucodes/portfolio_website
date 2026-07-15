@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { CONTACT } from "../data";
-import heroPhoto from "../assets/hero.png";
+
 
 const rise = {
   hidden: { y: "110%" },
@@ -50,7 +50,7 @@ function Portrait() {
       <motion.div className="portrait-circle" variants={circleDrop} />
       <motion.div className="portrait-photo" variants={photoRise}>
         {!failed ? (
-          <img src={heroPhoto} alt="Ujjwal Sachdeva" onError={() => setFailed(true)} draggable={false} />
+          <img src="/hero.png" alt="Ujjwal Sachdeva" onError={() => setFailed(true)} draggable={false} />
         ) : (
           <div className="fallback">photo pending</div>
         )}
