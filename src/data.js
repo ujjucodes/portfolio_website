@@ -64,7 +64,7 @@ export const DASHBOARDS = [
     stack: "Power BI · DAX · SQL",
     blurb:
       "Loan disbursement and portfolio exposure across ~45K records, ranking the risk factors that drive approval and default.",
-    img: "/assets/credit_risk.png",
+    img: "/credit_risk.png",
     metric: "45K records",
   },
   {
@@ -72,7 +72,7 @@ export const DASHBOARDS = [
     stack: "GA4 · Power BI · SQL",
     blurb:
       "A/B tests on homepage variants and promotional offers, tracked through to session duration and returning-customer behaviour.",
-    img: "/assets/walmart_report.png",
+    img: "/walmart_report.png",
     metric: "+20% session time",
   },
   {
@@ -80,7 +80,7 @@ export const DASHBOARDS = [
     stack: "Python · Scikit-learn · Power BI",
     blurb:
       "Flagged transactions surfaced for investigation, with the model's driving features exposed alongside each case.",
-    img: "/assets/fraud_analysis.png",
+    img: "/fraud_analysis.png",
     metric: "Anomaly scoring",
   },
 ];
@@ -118,7 +118,7 @@ export const PROJECTS = [
     kind: "Retrieval-augmented generation",
     stack: "Python · LangChain · Vector DB · LLM",
     body: "A RAG assistant that answers patient and clinician questions from trusted medical literature and cites its sources. Retrieves over MIMIC-IV clinical notes, PubMed abstracts and MedQuAD, using tuned chunking and reranking to reach 85-95% retrieval accuracy on domain-specific queries.",
-    img: "/assets/rag_img.jpg",
+    img: "/rag_img.jpg",
     href: "https://github.com/ujjucodes/RAG_Chunking_Strategies--research_paper.git",
   },
   {
@@ -126,7 +126,7 @@ export const PROJECTS = [
     kind: "Deep learning",
     stack: "Python · TensorFlow · CNN · AWS",
     body: "A sustainability project that classifies waste into recyclable and organic streams using a CNN. Built an ETL and data-cleaning workflow to prepare the image set, applied data augmentation to expand training coverage, and fine-tuned the model to lift classification accuracy, with training data warehoused on AWS.",
-    img: "/assets/ml_image.jpg",
+    img: "/ml_image.jpg",
     href: "https://github.com/ujjucodes/Waste-Product-classification--ML-model-.git",
   },
   {
@@ -134,7 +134,7 @@ export const PROJECTS = [
     kind: "Data engineering",
     stack: "Python · Kafka · Databricks",
     body: "A realtime streaming pipeline built with Kafka and Databricks that ingests live supermarket sales events and surfaces them on a rolling dashboard. Handles high-throughput transaction streams, transforms them in-flight, and updates sales and inventory metrics the moment they change so stock movement is visible as it happens.",
-    img: "/assets/databricks_etl.png",
+    img: "/databricks_etl.png",
     href: "https://github.com/",
   },
 ];
